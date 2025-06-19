@@ -1,0 +1,30 @@
+/* Same as AddTask - reuse */
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .form-container input,
+  .form-container textarea,
+  .form-container select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    background-color: #4c63b6;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
